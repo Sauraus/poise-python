@@ -25,7 +25,7 @@ module PoisePython
     class Msi < Base
       provides(:msi)
 
-      MSI_VERSIONS = %w{3.4.4 3.3.5 3.2.5 3.1.4 3.0.1 2.7.10 2.6.5 2.5.4}
+      MSI_VERSIONS = %w{3.4.4 3.3.5 3.2.5 3.1.4 3.0.1 2.7.14 2.6.5 2.5.4}
 
       def self.provides_auto?(node, resource)
         # Only enable by default on Windows and not for Python 3.5 because that
